@@ -9,7 +9,7 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 model = genai.GenerativeModel("models/gemini-2.5-flash")
 
 # 🎵 App Title
-st.title("🎶 Song Recommendation System 🎶")
+st.title("🎶 Song Recommend System 🎶")
 
 # Intro Section
 st.markdown("---")
